@@ -1,0 +1,6 @@
+langkah,n_fitur,pr_auc,delta_pr_auc,termasuk_B
+Statik saja,5,0.5652,,True
++ Teks,14,0.5680,0.0027,True
++ Riwayat,16,0.5769,0.0090,True
++ Deviasi rating,19,0.6161,0.0392,True
++ Eksposur,22,0.6762,0.0601,False

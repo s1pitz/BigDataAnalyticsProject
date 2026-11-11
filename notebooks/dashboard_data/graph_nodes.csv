@@ -1,0 +1,207 @@
+asin,title,brand,n_reviewers,votes,mean_rating,pagerank,community,betweenness,degree,x,y,community_label
+B00RZ7T8TK,HORI Screen Protective Filter for Nintendo NEW 3DS XL,Hori,815,94,4.491,99.251,0,0.00017,4,-0.17174,0.47773,K0 - Nintendo 3DS Compatible with 3
+B00S1LRX3W,Nintendo New 3DS XL - Black,Nintendo,614,2734,4.573,73.71,0,0.0,2,0.47711,0.65972,K0 - Nintendo 3DS Compatible with 3
+B0000296O5,Final Fantasy VIII,SquareSoft,524,615,4.269,55.385,1,0.0,4,-0.60023,-0.07062,K1 - Kingdom Hearts
+B00005TNI6,Final Fantasy X,SquareSoft,781,1096,4.353,82.114,1,0.00146,5,-0.90439,0.46659,K1 - Kingdom Hearts
+B000FRU1UM,Grand Theft Auto IV,Rockstar Games,723,1132,4.241,80.687,16,0.0008,2,0.40557,0.83336,K16 - Halo 4 - Xbox 360 (Standard Ga
+B000P46NMK,Assassin's Creed,Ubisoft,1350,1905,4.048,153.475,16,0.00122,3,-0.55362,0.89268,K16 - Halo 4 - Xbox 360 (Standard Ga
+B0050SYX8W,Halo 4 - Xbox 360 (Standard Game),Microsoft,1636,1072,4.395,194.61,16,0.00234,4,0.50771,-0.41765,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00005NZ1G,Halo - Xbox,Microsoft,797,872,4.527,84.753,16,0.00689,3,-0.84962,-0.26004,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00008J7NZ,Halo 2 - Xbox,Microsoft,707,1120,4.304,77.999,16,0.00684,4,-0.85394,0.17064,K16 - Halo 4 - Xbox 360 (Standard Ga
+B000P46NMA,Assassin's Creed - Playstation 3,Ubisoft,1312,1539,4.137,144.385,17,0.00126,5,-0.50036,-0.70593,K17 - Assassin's Creed - Playstation
+B0050SXLQC,Resident Evil 6 - Playstation 3,Capcom,697,1256,4.072,74.31,17,0.0,1,0.26516,-0.90684,K17 - Assassin's Creed - Playstation
+B0053BCML6,Animal Crossing: New Leaf,Nintendo,946,1145,4.746,111.884,31,0.00025,2,-0.64823,0.16922,K31 - Super Smash Bros. - Nintendo 3
+B0053BCP40,Luigi's Mansion: Dark Moon,Nintendo,640,271,4.617,72.914,31,0.00031,3,-0.1686,0.91809,K31 - Super Smash Bros. - Nintendo 3
+B00000JRSB,Final Fantasy VII,SquareSoft,597,987,4.663,63.769,1,0.0,4,-0.81498,0.35106,K1 - Kingdom Hearts
+B002I096Q4,Destiny - Standard Edition - Xbox 360,Activision,562,683,3.972,67.957,2,0.0,1,0.15123,-0.96594,K2 - Destiny - Standard Edition - X
+B00MU1YENG,Call of Duty: Advanced Warfare - Xbox 360,Activision,534,665,4.245,67.915,2,0.0,1,0.20557,-0.91583,K2 - Destiny - Standard Edition - X
+B01E8RS598,"SADES Spirit Wolf 7.1 Surround Stereo Sound USB Computer Gaming Headset with Microphone,Over-the-Ear Noise Isolating,Breathing LED Light For PC Gamers (Black White)",Sades,802,412,3.904,117.775,3,0.0,1,0.09268,0.82555,K3 - SADES Spirit Wolf 7.1 Surround
+B01H6SM5CY,"SADES Spirit Wolf 7.1 Surround Stereo Sound USB Computer Gaming Headset with Microphone,Over-the-Ear Noise Isolating,Breathing LED Light For PC Gamers (Black White)",Sades,746,381,3.895,110.034,3,0.0,1,0.33641,0.70827,K3 - SADES Spirit Wolf 7.1 Surround
+B00CX6XKK6,Call of Duty: Ghosts - Xbox One,Activision,719,482,3.823,84.272,5,0.0,3,-0.28264,-0.87154,K5 - Xbox One Wireless Controller (
+B00CXCCB64,Battlefield 4 - Xbox One,Electronic Arts,722,1027,3.702,85.244,5,0.0,3,0.37604,-0.35797,K5 - Xbox One Wireless Controller (
+B00MTWV0II,Razer BlackWidow Chroma: Clicky RGB Mechanical Gaming Keyboard - 5 Macro Keys - Razer Green Mechanical Switches (Tactile and Clicky),Razer,614,532,4.438,81.383,4,0.0,2,-0.94522,-0.04969,K4 - Razer BlackWidow Chroma: Click
+B00Y4S5KPY,Razer Firefly Chroma Hard: Micro-Textured Finish - Non-Slip Rubber Base - Powered by Razer Chroma - Hard Gaming Mouse Mat - RZ02-01350100-R3U1,Razer,511,745,4.472,67.792,4,0.0,2,-0.90659,0.4902,K4 - Razer BlackWidow Chroma: Click
+B002BSA20M,Halo Reach,Microsoft,846,1069,4.455,95.682,16,0.00178,5,-0.22122,0.08401,K16 - Halo 4 - Xbox 360 (Standard Ga
+B0050SYY5E,Halo: Combat Evolved Anniversary,Microsoft,530,861,4.457,58.692,16,0.00292,5,-0.47633,0.13914,K16 - Halo 4 - Xbox 360 (Standard Ga
+B013HSWF40,"RAZER MAMBA TOURNAMENT EDITION: 16,000 Adjustable DPI - Ergonomic Form Factor - Chroma Enabled - Esports Gaming Mouse",Razer,545,763,3.782,74.391,4,0.0,2,-0.32276,-0.31287,K4 - Razer BlackWidow Chroma: Click
+B000KRXAGE,Wii Play with Wii Remote,Nintendo,509,2120,3.878,61.293,39,0.00053,5,0.9688,0.31277,K39 - New Super Mario Bros. Wii
+B000XJNTNS,Mario Kart Wii with Wii Wheel,Nintendo,778,1682,4.629,93.123,39,0.00016,4,0.76101,0.69742,K39 - New Super Mario Bros. Wii
+B00CMQTUSS,Xbox One Wireless Controller (Without 3.5 millimeter headset jack),Microsoft,1658,887,4.466,201.673,5,0.00084,4,-0.0517,0.97994,K5 - Xbox One Wireless Controller (
+B00NFXON1Q,Xbox One 500GB Console - Assassin's Creed Unity Bundle,Microsoft,993,2122,4.381,122.102,5,0.00069,3,-0.51675,-0.32951,K5 - Xbox One Wireless Controller (
+B001SH7YMG,Red Dead Redemption,Rockstar Games,565,1251,4.444,62.446,29,0.0,1,-0.96649,-0.18978,K29 - Red Dead Redemption
+B001TORSII, Mass Effect 2 Platinum Hits,Electronic Arts,527,767,4.592,57.203,29,5e-05,2,-0.56238,-0.70779,K29 - Red Dead Redemption
+B006JKASCK,32GB PlayStation Vita Memory Card,Sony,663,2467,4.015,75.831,38,0.0,2,0.89949,-0.32617,K38 - PlayStation Vita Memory Card 6
+B0073ESYZO,CTA Digital PS Vita Travel EVA Protective Case,CTA Digital,567,189,4.432,67.402,38,0.00022,4,-0.10113,0.12956,K38 - PlayStation Vita Memory Card 6
+B00HTK1NCS,"Redragon M601 Wired Gaming Mouse, Ergonomic, Programmable 6 Buttons, 3200 DPI with Red LED Mouse for Windows PC Games - Black",Redragon,2216,941,4.303,312.733,6,0.0,1,-0.66343,0.7397,K6 - Redragon M601 Wired Gaming Mou
+B016MAK38U,Redragon K552 RED LED Backlit Mechanical Gaming Keyboard Small Compact 87 Key Metal Mechanical Computer Keyboard KUMARA USB Wired Cherry MX Blue Equivalent Switches for Windows PC Gamers - Black,Redragon,844,814,4.525,119.699,6,0.0,1,-0.47399,0.93553,K6 - Redragon M601 Wired Gaming Mou
+B00DBDPOZ4,Xbox One Play and Charge Kit,Microsoft,1754,870,4.314,217.149,7,0.0,1,0.48502,-0.81353,K7 - Xbox One Play and Charge Kit
+B00IAVDPSA,Xbox One Media Remote,Microsoft,983,431,4.302,124.84,7,5e-05,2,-0.93829,0.41085,K7 - Xbox One Play and Charge Kit
+B00O65I2VY,Microsoft Xbox One Controller + Cable for Windows,Microsoft,778,396,4.189,101.122,8,0.0,1,0.58393,0.74013,K8 - Microsoft Xbox Wireless Adapte
+B00ZB7W4QU,Microsoft Xbox Wireless Adapter for Windows 10,Microsoft,1095,611,4.327,138.748,8,0.0,1,0.56252,-0.82038,K8 - Microsoft Xbox Wireless Adapte
+B000ZK9QCS,God of War III - Playstation 3,Sony,664,795,4.586,67.902,17,0.00069,6,-0.19011,-0.9364,K17 - Assassin's Creed - Playstation
+B00JKM06HG,Metal Gear Solid V: The Phantom Pain - PlayStation 4,Konami,803,1018,4.387,88.096,11,0.0,2,0.80036,0.1249,K11 - Destiny - Standard Edition - P
+B00WTI3JPE,The Witcher 3: Wild Hunt - PlayStation 4,WB Games,805,1770,4.504,88.664,11,0.00163,4,-0.34636,-0.89919,K11 - Destiny - Standard Edition - P
+B000A2R54M,Mario Kart DS,Nintendo,588,765,4.718,69.472,20,0.0,2,-0.74011,-0.30395,K20 - Nintendo DS Lite Polar White
+B000FO4KO8,Nintendo DS Lite Polar White,Nintendo,1231,3429,4.465,153.02,20,0.0,2,-0.01806,0.35778,K20 - Nintendo DS Lite Polar White
+B00JF63SQI,"Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse - World of Tanks",Razer,2833,803,4.24,340.557,9,0.0,2,-0.124,-0.16557,K9 - Razer DeathAdder Chroma - Mult
+B00MYTSDU4,"Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse",Razer,2880,825,4.218,347.274,9,0.0,2,-0.30458,-0.04671,K9 - Razer DeathAdder Chroma - Mult
+B000FQ9QVI,Super Mario Galaxy,Nintendo,538,1143,4.625,58.911,39,0.00167,6,0.89515,0.02601,K39 - New Super Mario Bros. Wii
+B000FQ9R4E,Super Smash Bros. Brawl,Nintendo,857,1219,4.529,98.951,39,0.0,1,0.91984,-0.12223,K39 - New Super Mario Bros. Wii
+B00009OY9U,Extreme 3D Pro Joystick for Windows,Logitech,905,1062,4.305,124.782,10,0.0,1,-0.28166,-0.75968,K10 - Extreme 3D Pro Joystick for Wi
+B001DPZE84, Microsoft Flight Simulator X,Microsoft,493,1745,4.357,69.245,10,5e-05,2,-0.73065,-0.64961,K10 - Extreme 3D Pro Joystick for Wi
+B00GMFKYK8,Middle Earth: Shadow of Mordor - PlayStation 4,WB Games,993,1276,4.497,110.467,11,0.00215,4,-0.96761,0.21824,K11 - Destiny - Standard Edition - P
+B00KAED850,Far Cry 4 - PlayStation 4,Ubisoft,1025,420,4.519,114.687,11,0.00022,3,-0.54351,-0.53864,K11 - Destiny - Standard Edition - P
+B00004YRQA,PlayStation 2 Memory Card (8MB),Sony,489,1525,4.607,52.697,22,0.00053,3,0.88715,-0.4412,K22 - PlayStation 2 Console Slim PS2
+B0000C7GHG,Playstation 2 Console - Black,Playstation,589,1274,3.983,69.08,22,0.00301,3,0.16871,0.53238,K22 - PlayStation 2 Console Slim PS2
+B00BMFIXOW,Assassin's Creed IV Black Flag - PlayStation 4,Ubisoft,910,478,4.565,100.761,11,0.00579,5,-0.44843,-0.87338,K11 - Destiny - Standard Edition - P
+B00J48MUS4,Assassin's Creed Unity Limited Edition - PlayStation 4,Ubisoft,1187,7854,3.8,134.307,11,0.00803,6,-0.49469,-0.80169,K11 - Destiny - Standard Edition - P
+B00DC7G0GG,Super Mario 3D World - Nintendo Wii U,Nintendo,709,1076,4.769,77.729,12,0.0004,5,0.28747,0.25256,K12 - Mario Kart 8 - Nintendo Wii U
+B00DD0B0BM,Super Smash Bros. - Nintendo Wii U,Nintendo,1027,673,4.715,116.602,12,0.00021,5,-0.01969,0.86182,K12 - Mario Kart 8 - Nintendo Wii U
+B01C93CWSI,Pokémon Moon - Nintendo 3DS,Nintendo,957,740,4.649,118.534,13,0.0,1,0.71225,-0.65968,K13 - Pokémon Moon - Nintendo 3DS
+B01C93CWU6,Pokémon Sun - Nintendo 3DS,Nintendo,927,644,4.659,115.453,13,0.0,1,0.95895,-0.03103,K13 - Pokémon Moon - Nintendo 3DS
+B00004Y57G,Final Fantasy IX,Square Enix,549,466,4.612,58.511,1,0.0,4,-0.19445,0.39703,K1 - Kingdom Hearts
+B001HWB68K, Halo 3,Microsoft,517,824,3.907,55.368,16,0.00061,4,-0.36989,-0.36489,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00AAS888S,"Razer DeathAdder Expert - Optical Esports Ergonomic Professional-Grade Gaming Mouse - 6,400 Adjustible DPI",Razer,2423,697,4.175,286.957,9,0.0,2,-0.38342,-0.16688,K9 - Razer DeathAdder Chroma - Mult
+B00BMFIXT2,Assassin's Creed IV Black Flag - Xbox 360,Ubisoft,936,672,4.609,110.75,16,0.0,1,0.4971,0.87217,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00KWEHBAG,Hyrule Warriors - Nintendo Wii U,Nintendo,487,461,4.567,53.785,12,0.0,3,-0.97428,0.05047,K12 - Mario Kart 8 - Nintendo Wii U
+B000FQ2D5E,Metal Gear Solid 4: Guns of the Patriots,Konami/ Kojima Productions,732,1539,4.478,74.743,17,9e-05,4,-0.2435,-0.88314,K17 - Assassin's Creed - Playstation
+B000HKP88C,Grand Theft Auto IV - PlayStation 3,Rockstar Games,659,1019,4.259,71.416,17,0.0,2,-0.88009,-0.38034,K17 - Assassin's Creed - Playstation
+B0053BG26C,Just Dance 3 [Nintendo Wii],Ubisoft,686,1155,4.665,91.19,14,0.0,2,0.96847,-0.23127,K14 - Just Dance 3 [Nintendo Wii]
+B00D7UHT0E,Just Dance 2014 - Nintendo Wii,Ubisoft,547,527,4.625,71.981,14,0.0,2,0.26709,0.76114,K14 - Just Dance 3 [Nintendo Wii]
+B00FLLFJE0,Nyko Dual Charge Base High Speed Docking/Charging Station for Xbox One/Xbox One S Controllers with Two Super Fast Rechargeable Battery Packs,Nyko,1072,388,3.8,137.745,5,0.0,1,-0.18128,0.9919,K5 - Xbox One Wireless Controller (
+B00BI83EVU,Watch Dogs - PlayStation 4,Ubisoft,897,1342,4.04,96.888,11,0.00251,5,0.66529,-0.59691,K11 - Destiny - Standard Edition - P
+B00BGA9YZK,Killzone: Shadow Fall (PlayStation 4),Sony,1000,1261,3.859,105.935,11,0.00344,4,0.01834,-0.84861,K11 - Destiny - Standard Edition - P
+B00DS0MQUQ,Battlefield 4 - PlayStation 4,Electronic Arts,560,281,4.232,63.429,11,0.0,2,-0.4111,-0.89817,K11 - Destiny - Standard Edition - P
+B00DD0B1R0,Super Smash Bros. - Nintendo 3DS,Nintendo,1150,471,4.766,134.88,31,0.00057,3,-0.20906,-0.09188,K31 - Super Smash Bros. - Nintendo 3
+B00PB9LZQI,The Legend of Zelda: Majora's Mask 3D,Nintendo,565,664,4.772,64.193,31,0.00017,2,-0.93902,-0.30186,K31 - Super Smash Bros. - Nintendo 3
+B00HGLLRV2,inFAMOUS: Second Son Standard Edition (PlayStation 4),Sony,672,425,4.451,71.892,11,0.0,1,0.77405,-0.60465,K11 - Destiny - Standard Edition - P
+B00B98HF1O,"Lego: Marvel Super Heroes, XBOX 360",WB Games,612,360,4.724,75.207,33,0.0,1,-0.91914,-0.14193,K33 - Xbox 360 Wireless Controller -
+B00BU3ZLJQ,Minecraft,Microsoft,1433,683,4.68,181.283,33,5e-05,2,0.91987,-0.43272,K33 - Xbox 360 Wireless Controller -
+B00JK00S0S,The Last of Us Remastered - PlayStation 4,Sony,1756,1948,4.735,197.596,15,0.00024,3,0.15114,0.91455,K15 - The Last of Us Remastered - Pl
+B00YQM1PNY,UNCHARTED: The Nathan Drake Collection - PlayStation 4,Sony,771,826,4.68,86.078,15,0.0,2,-0.57586,0.76018,K15 - The Last of Us Remastered - Pl
+B0000696CZ,Grand Theft Auto Vice City,2K,600,1419,4.495,63.007,1,0.00373,4,-0.57941,0.67884,K1 - Kingdom Hearts
+B00L2FGSFI,Nyko Intercooler Stand - Cooling Attachment with Short USB Power Cord for Xbox One,Nyko,794,413,4.484,101.768,7,0.0,1,0.67157,0.45058,K7 - Xbox One Play and Charge Kit
+B00GODZYNA,Uncharted 4: A Thief's End - PlayStation 4,Sony,1542,1544,4.699,173.458,15,0.00053,4,-0.8129,0.60058,K15 - The Last of Us Remastered - Pl
+B000UW21A0,Uncharted: Drake's Fortune - Playstation 3,Naughty Dog Inc.,709,1264,4.477,72.479,17,0.00065,6,-0.47201,-0.80747,K17 - Assassin's Creed - Playstation
+B000066TS5,Kingdom Hearts,SquareSoft,744,1037,4.601,82.385,1,0.00146,5,-0.96811,0.1863,K1 - Kingdom Hearts
+B000IMYKQ0,Wii Nunchuk Controller - White,Nintendo,680,685,4.487,78.364,39,2e-05,3,0.61715,-0.55299,K39 - New Super Mario Bros. Wii
+B00DBLBMBQ,The Order: 1886 - PlayStation 4,Sony,571,817,3.82,60.024,11,0.0,2,-0.1399,-0.89587,K11 - Destiny - Standard Edition - P
+B00MV7KVP4,Until Dawn - PlayStation 4,Sony,782,940,4.506,84.457,11,0.00139,3,0.23697,-0.86717,K11 - Destiny - Standard Edition - P
+B002I0H79C,Gears of War 3,Microsoft,785,500,4.55,86.397,16,0.00069,2,0.31716,-0.56165,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00PV515DU,Sony PlayStation Vita WiFi,Sony,499,1428,4.595,59.539,38,0.00022,4,0.85628,-0.51647,K38 - PlayStation Vita Memory Card 6
+B00DC7G2W8,Mario Kart 8 - Nintendo Wii U,Nintendo,1403,953,4.758,159.185,12,0.00088,6,-0.05361,-0.13354,K12 - Mario Kart 8 - Nintendo Wii U
+B0050SVNZ8,"AmazonBasics Carrying Case for Nintendo - New 3DS XL, 3DS XL - Red (Officially Licensed by Nintendo)",AmazonBasics,845,800,4.67,102.997,0,0.0,2,0.77434,0.68092,K0 - Nintendo 3DS Compatible with 3
+B00L59D9HG,Nintendo 3DS Compatible with 3DS / 3DS XL / 2DS AC Adapter,Nintendo,1119,372,4.676,135.338,0,2e-05,3,-0.2957,0.66987,K0 - Nintendo 3DS Compatible with 3
+B0094X227I,Nintendo Wii Remote Plus - White,Nintendo,1157,1171,4.73,140.469,12,0.00038,2,0.6588,-0.30111,K12 - Mario Kart 8 - Nintendo Wii U
+B001JKTC9A,Uncharted 2: Among Thieves - Playstation 3,Sony,690,1245,4.767,72.912,17,0.00011,5,-0.1991,-0.59206,K17 - Assassin's Creed - Playstation
+B001SGZL2W,Red Dead Redemption - Playstation 3,2K,589,1320,4.497,63.423,17,2e-05,3,-0.7929,0.52658,K17 - Assassin's Creed - Playstation
+B00VU4J8YY,Call of Duty: Black Ops III - Standard Edition - Xbox One,Activision,854,1256,3.833,103.929,5,0.00053,2,0.94038,0.28503,K5 - Xbox One Wireless Controller (
+B00YQ1NOPM,Fallout 4 - Xbox One,Bethesda,958,615,4.562,115.412,5,0.0,1,-0.64691,-0.03013,K5 - Xbox One Wireless Controller (
+B000FRU0NU,Halo 3 - Xbox 360,Microsoft,748,1016,4.301,81.004,16,0.0022,5,-0.04627,0.63593,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00DEL3IIS,Tom Clancy's The Division - PlayStation 4,Ubisoft,696,1025,3.868,79.441,18,0.0,1,0.81155,0.56719,K18 - Tom Clancy's The Division - Pl
+B0166QDJDQ,Far Cry Primal - PlayStation 4 Standard Edition,Ubisoft,497,948,4.292,55.655,18,0.0,1,0.44494,-0.86364,K18 - Tom Clancy's The Division - Pl
+B01F9HMO2K,Battlefield 1 - PlayStation 4,Electronic Arts,554,612,4.357,65.076,19,0.0,1,-0.49918,0.87559,K19 - Battlefield 1 - PlayStation 4
+B01GKGVI8U,Titanfall 2 - PlayStation 4,Electronic Arts,548,751,4.613,62.536,19,0.0,1,0.19815,-0.97119,K19 - Battlefield 1 - PlayStation 4
+B000ERVMI8,New Super Mario Bros,Nintendo,865,1276,4.697,101.51,20,0.0,2,-0.92753,0.29364,K20 - Nintendo DS Lite Polar White
+B00Z7V9P8K,Batman: Arkham Knight - PlayStation 4 [Digital Code],"Warner Bros Interactive. Entertainment, Inc.",918,792,4.337,100.451,11,0.00528,4,-0.74859,-0.57127,K11 - Destiny - Standard Edition - P
+B006JKARN0,PS3 Gran Turismo 5 XL Edition,Sony,499,501,4.443,57.456,21,5e-05,2,0.40071,0.8005,K21 - Mortal Kombat: Komplete Editio
+B00CRL9TU2,Gran Turismo 6,Sony,570,1061,4.03,68.869,21,0.0,1,0.55874,-0.73184,K21 - Mortal Kombat: Komplete Editio
+B00BGA9Y3W,Destiny - Standard Edition - PlayStation 4,Activision,1313,2948,3.568,148.623,11,0.0,2,0.59896,-0.72469,K11 - Destiny - Standard Edition - P
+B00CMQTVUA,Xbox One + Kinect,Microsoft,1135,6207,3.859,137.424,5,0.00014,4,-0.25387,0.32838,K5 - Xbox One Wireless Controller (
+B00005O0I2,Grand Theft Auto III,Sony,598,639,4.624,63.987,1,0.00373,4,-0.12906,0.79411,K1 - Kingdom Hearts
+B00D4WTO1M,Call of Duty: Ghosts - PlayStation 4,Activision,903,782,3.761,102.81,11,0.00057,4,-0.13464,-0.13729,K11 - Destiny - Standard Edition - P
+B00269DX5W,Assassin's Creed II - Greatest Hits edition - Playstation 3,Ubisoft,487,527,4.437,51.46,17,0.00019,4,-0.9505,-0.17552,K17 - Assassin's Creed - Playstation
+B013HMN66M,Rise of the Tomb Raider: 20 Year Celebration - PlayStation 4,Square Enix,512,551,4.65,57.494,15,0.00024,2,-0.77954,-0.49379,K15 - The Last of Us Remastered - Pl
+B0009VXBAQ,Wii,Nintendo,1454,4317,4.51,172.894,39,0.00124,7,0.99345,-0.06016,K39 - New Super Mario Bros. Wii
+B00CX9T598,Destiny - Standard Edition - Xbox One,Activision,701,314,3.837,83.375,5,0.00093,3,0.96398,0.16988,K5 - Xbox One Wireless Controller (
+B00DB9JYFY,Titanfall - Xbox One,Electronic Arts,1053,4266,3.982,118.636,5,0.00098,5,0.47508,0.12173,K5 - Xbox One Wireless Controller (
+B0053B66KE,Pokemon Y,Nintendo,703,98,4.74,82.241,31,0.0,2,0.71964,-0.277,K31 - Super Smash Bros. - Nintendo 3
+B00KI2OZ9M,Pokémon Omega Ruby - Nintendo 3DS,Nintendo,732,317,4.794,87.529,31,0.00058,4,0.01499,0.32221,K31 - Super Smash Bros. - Nintendo 3
+B00RZ7TC6Y,HORI Duraflexi Clear Protector for Nintendo NEW 3DS XL,Hori,511,474,4.409,63.21,0,0.0,1,-0.37434,-0.77319,K0 - Nintendo 3DS Compatible with 3
+B00166N6SA, The Sims 3 - PC,Electronic Arts,497,4703,3.543,61.838,23,0.0,1,0.46148,-0.82019,K23 - The Sims 4 - PC/Mac
+B00EFRN2IQ,The Sims 4 - PC/Mac,Electronic Arts,645,5494,3.454,83.25,23,0.0,1,0.67916,0.80498,K23 - The Sims 4 - PC/Mac
+B00MU1YEE0,Call of Duty: Advanced Warfare - Xbox One,Activision,571,661,4.133,66.801,5,2e-05,2,0.96794,-0.17399,K5 - Xbox One Wireless Controller (
+B0009VXAM0,PlayStation 3 60GB System,Sony,500,5522,4.268,56.366,24,0.0,1,-0.80401,0.67619,K24 - Sony PlayStation 3 Blu-ray Dis
+B000M17AVO,Sony PlayStation 3 Blu-ray Disc Remote,Sony,626,1191,4.342,75.334,24,0.0,1,-0.09137,0.99765,K24 - Sony PlayStation 3 Blu-ray Dis
+B000FQ2DTA,Final Fantasy XIII - Playstation 3,Square Enix,697,3196,3.697,72.201,17,0.0,1,0.904,0.49618,K17 - Assassin's Creed - Playstation
+B004FS8LYK,Tomb Raider,Square Enix,659,731,4.598,70.459,25,0.0,1,-0.76101,-0.28603,K25 - Tomb Raider
+B0050SX7BQ,BEYOND: Two Souls,Sony,609,1196,4.291,67.195,25,0.0,1,0.88205,-0.40003,K25 - Tomb Raider
+B00BDS415I,"Turtle Beach - Ear Force PX22 Universal Amplified Gaming Headset - PS3, Xbox 360, PC",Turtle Beach,1351,989,3.913,195.135,26,0.0,1,0.2083,0.38151,K26 - Turtle Beach - Ear Force PX22 
+B018K6KV68,"Turtle Beach - Ear Force PX22  - Universal Amplified Gaming Headset- PS3, Xbox 360, PC - FFP [Old Version]",Turtle Beach,1354,1063,3.914,195.503,26,0.0,1,0.4458,0.51371,K26 - Turtle Beach - Ear Force PX22 
+B007XVTR3K,Call of Duty: Black Ops II - Xbox 360,Activision,1233,379,4.17,151.944,16,0.00036,2,0.11784,-0.94877,K16 - Halo 4 - Xbox 360 (Standard Ga
+B0053B5RGI,Pokemon X,Nintendo,866,696,4.738,101.316,31,0.00029,3,0.17243,1.0,K31 - Super Smash Bros. - Nintendo 3
+B00GMFKYJ4,Middle Earth: Shadow of Mordor - Xbox One,WB Games,562,433,4.491,64.185,27,0.0,1,-0.93619,0.12022,K27 - Far Cry 4 - Xbox One
+B00KAED7OC,Far Cry 4 - Xbox One,Ubisoft,566,487,4.449,65.202,27,0.0,1,0.82774,0.50992,K27 - Far Cry 4 - Xbox One
+B00GANWVJE,The Legend of Zelda: A Link Between Worlds 3D,Nintendo,703,650,4.742,78.392,31,0.0001,2,0.60113,0.72358,K31 - Super Smash Bros. - Nintendo 3
+B009AGXH64,Nintendo Wii U Console - 32GB Black Deluxe Set,Nintendo,519,4290,4.146,58.285,12,0.0,1,-0.64181,-0.63555,K12 - Mario Kart 8 - Nintendo Wii U
+B001CXYMFS,Thrustmaster T-Flight Hotas X Flight Stick,ThrustMaster,797,1107,4.338,107.303,10,0.0,1,0.6665,0.73349,K10 - Extreme 3D Pro Joystick for Wi
+B00MUY0OFU,Nintendo Wii U Pro Controller - Black,Nintendo,766,976,4.63,86.903,12,0.0,3,0.46542,0.91322,K12 - Mario Kart 8 - Nintendo Wii U
+B00BGAA29M,Knack (PlayStation 4),Sony,583,824,4.072,63.277,11,0.0021,2,0.70555,0.03243,K11 - Destiny - Standard Edition - P
+B00DUARBTA,LEGO Marvel Super Heroes - PlayStation 4,WB Games,541,431,4.638,62.85,11,0.0011,2,0.88502,0.34759,K11 - Destiny - Standard Edition - P
+B00KVQYJR8,Minecraft - PlayStation 4,Sony,590,378,4.695,71.966,11,0.0,1,0.3631,0.89442,K11 - Destiny - Standard Edition - P
+B00004YRQ9,PlayStation 2 Dualshock Controller Black,Sony,586,0,4.341,67.213,22,0.00053,3,0.93752,-0.27952,K22 - PlayStation 2 Console Slim PS2
+B00FWK8UWI,AULA LED Backlit Gaming Keyboard (3 Colorways),AULA,839,1070,4.081,118.745,28,5e-05,2,-0.0229,-0.95296,K28 - HAVIT HV-MS672 3200DPI Wired M
+B00IFRH6JS,Zelotes 5500 DPI 7 Button LED Optical USB Wired Gaming Mouse Mice for Pro Gamer,Zelotes,806,84,4.079,114.447,28,0.0,1,0.01072,-0.97572,K28 - HAVIT HV-MS672 3200DPI Wired M
+B000TLU67W,PlayStation 2 Console Slim PS2,Sony,691,477,4.412,79.755,22,0.0,2,0.54644,-0.2591,K22 - PlayStation 2 Console Slim PS2
+B0001VGFK2,Grand Theft Auto: San Andreas - PlayStation 2,Rockstar Games,503,1672,4.529,55.69,1,0.00383,3,-0.62812,0.60096,K1 - Kingdom Hearts
+B00503E8S2,Call of Duty: Modern Warfare 3 - Xbox 360,Activision,1225,3822,3.767,144.394,16,5e-05,2,-0.7176,-0.74904,K16 - Halo 4 - Xbox 360 (Standard Ga
+B00KSQHX1K,Halo: The Master Chief Collection,Microsoft,1132,2491,3.766,131.253,5,0.00132,3,0.93046,-0.19063,K5 - Xbox One Wireless Controller (
+B00KWFCV32,Splatoon,Nintendo,580,746,4.548,65.619,12,0.00038,3,-0.93858,0.16803,K12 - Mario Kart 8 - Nintendo Wii U
+B002BRZ9G0,New Super Mario Bros. Wii,Nintendo,1432,1280,4.69,176.644,39,0.00024,3,0.73057,-0.61341,K39 - New Super Mario Bros. Wii
+B002BSA388,Super Mario Galaxy 2,Nintendo,507,1020,4.692,57.25,39,0.00024,3,0.36599,-0.85975,K39 - New Super Mario Bros. Wii
+B00KVR4HEC,Bloodborne,Sony,1266,2558,4.356,140.608,11,0.00017,3,-0.95291,-0.09267,K11 - Destiny - Standard Edition - P
+B00HLT0YT0,Borderlands 2 - Limited Edition - PlayStation Vita Bundle,Sony,489,662,4.489,57.349,38,0.0,1,0.28909,0.7632,K38 - PlayStation Vita Memory Card 6
+B006JKASAC,16GB PlayStation Vita Memory Card,Sony,611,617,4.19,68.733,38,0.0,2,0.35364,0.95795,K38 - PlayStation Vita Memory Card 6
+B000OLXX86,Mass Effect - Xbox 360,Microsoft,530,1143,4.457,55.637,29,0.0,1,0.12863,-0.81394,K29 - Red Dead Redemption
+B00X87BLK0,Assassin's Creed: Syndicate - Standard Edition - PlayStation 4,Ubisoft,611,758,4.327,67.525,11,0.00569,2,0.47047,-0.654,K11 - Destiny - Standard Edition - P
+B0094X2066,Nintendo Nunchuk Controller - White,Nintendo,605,202,4.598,71.041,12,0.0,1,0.09547,-0.9466,K12 - Mario Kart 8 - Nintendo Wii U
+B00YQ2KCWO,Fallout 4 - PlayStation 4,Bethesda,1270,1801,4.502,147.832,11,0.0,1,-0.78268,0.70925,K11 - Destiny - Standard Edition - P
+B003ZHMMEM,Donkey Kong Country Returns,Nintendo,564,610,4.578,64.983,39,0.0,2,0.88033,0.36824,K39 - New Super Mario Bros. Wii
+B000VJRU44,Wii Fit Game with Balance Board,Nintendo,674,4414,4.593,86.912,39,0.0,2,0.18817,-0.70748,K39 - New Super Mario Bros. Wii
+B00KWFCSB2,Super Mario Maker - Nintendo Wii U,Nintendo,630,353,4.737,71.759,12,0.0,1,-0.86278,-0.41703,K12 - Mario Kart 8 - Nintendo Wii U
+B00DB9JV5W,Halo 5: Guardians,Microsoft,707,804,3.554,83.615,5,0.00096,2,0.31919,0.83503,K5 - Xbox One Wireless Controller (
+B002BSA298,Kinect Sensor with Kinect Adventures!,Microsoft,493,148,4.475,61.112,30,0.0,1,0.76266,-0.48852,K30 - Kinect Sensor TV Mounting Clip
+B004XV6ST4,Kinect Sensor TV Mounting Clip - Xbox 360,PDP,531,452,4.518,66.418,30,0.0,1,0.97048,0.28132,K30 - Kinect Sensor TV Mounting Clip
+B00BMFIXKQ,Assassin's Creed IV Black Flag - Playstation 3,Ubisoft,851,312,4.589,97.045,17,0.00048,2,0.11587,-0.17403,K17 - Assassin's Creed - Playstation
+B00C7103DO,Batman: Arkham Origins - Playstation 3,WB Games,582,442,4.259,64.863,17,0.0,1,-0.30171,-0.84675,K17 - Assassin's Creed - Playstation
+B0053BCO00,Mario Kart 7,Nintendo,979,521,4.748,112.622,31,0.00011,2,-0.45259,0.8216,K31 - Super Smash Bros. - Nintendo 3
+B00D3RBZHY,Need for Speed: Rivals,Electronic Arts,591,547,4.112,67.219,11,0.0,2,-0.85401,-0.56652,K11 - Destiny - Standard Edition - P
+B00BGAA0SU,inFAMOUS: Second Son Limited Edition (PlayStation 4),Sony,505,1144,4.41,53.991,11,0.0011,2,-0.68161,-0.77793,K11 - Destiny - Standard Edition - P
+B007FTE2VW,SimCity: Limited Edition,Electronic Arts,1982,8727,1.814,303.533,32,0.0,1,0.63693,-0.31958,K32 - SimCity [Instant Access]
+B00CRN9UWC,SimCity [Instant Access],Electronic Arts,1997,8825,1.809,305.69,32,0.0,1,0.50913,-0.46092,K32 - SimCity [Instant Access]
+B003ZSP0WW,Xbox 360 Wireless Controller - Glossy Black,Microsoft,2272,314,4.642,286.713,33,0.0,1,0.15718,-0.59282,K33 - Xbox 360 Wireless Controller -
+B001PO2BJI,"Beastron Mario Kart Racing Wheel for Nintendo Wii, 2 Sets White Color Bundle",Beastron,709,305,4.582,92.163,34,0.0,1,-0.90452,-0.23826,K34 - Insten Dual Remote Charging Do
+B004IK24MU,"Insten Dual Remote Charging Dock Charger Station with 2 Rechargeable 2800mAh Batteries & LED Light Indicator Docking Compatible With NINTENDO Wii / Wii U Game Controller, Black",INSTEN,756,231,3.676,101.125,34,0.0,1,-0.37658,0.77061,K34 - Insten Dual Remote Charging Do
+B000ZKA0J6,StarCraft II: Wings of Liberty,Blizzard Entertainment,829,9356,3.559,102.014,35,0.0,1,0.3287,-0.92561,K35 - Diablo III
+B00178630A,Diablo III,Blizzard Entertainment,1608,22024,2.708,198.759,35,0.0,1,-0.58219,0.26572,K35 - Diablo III
+B00RN7QTF8,Sentey Mouse Group,Sentey,506,145,4.034,75.226,36,0.0,1,0.36469,0.17642,K36 - Sentey Mouse Group
+B01A99RRL6,Sentey Mouse Group,Sentey,507,145,4.03,75.382,36,0.0,1,0.40495,0.04179,K36 - Sentey Mouse Group
+B003O6EB70,BioShock Infinite - Xbox 360,2K,565,789,4.434,62.812,37,0.0,1,-0.94402,0.26785,K37 - Far Cry 3
+B0050SYV70,Far Cry 3,Ubisoft,723,760,4.549,81.307,37,0.0,1,-0.9841,0.08579,K37 - Far Cry 3
+B00F27JGVA,PlayStation Vita Memory Card 64GB (PCH-Z641J),Sony,752,858,4.516,89.249,38,0.0,1,0.98597,0.1125,K38 - PlayStation Vita Memory Card 6
+B002BSA3EM,Wii Fit Plus with Balance Board,Nintendo,711,5569,4.572,93.328,39,0.0,1,-0.1868,0.81302,K39 - New Super Mario Bros. Wii
+B00GZ1GUSY,Tomb Raider: Definitive Edition - PlayStation 4,Square Enix,700,598,4.677,75.759,15,0.0,1,-0.71641,0.4212,K15 - The Last of Us Remastered - Pl
+B00K848IH0,Pokemon Alpha Sapphire - Nintendo 3DS,Nintendo,727,372,4.795,86.269,31,6e-05,3,0.87207,0.15803,K31 - Super Smash Bros. - Nintendo 3
+B000IMWK2G,Wii Remote Controller,Nintendo,626,677,4.526,75.23,39,9e-05,3,0.71901,0.25655,K39 - New Super Mario Bros. Wii
+B000LFJNF2,Nyko Wii Charge Station,Nyko,503,1433,4.026,62.294,39,2e-05,2,-0.50534,-0.82366,K39 - New Super Mario Bros. Wii
+B00ZQC73O8,Horizon Zero Dawn - PlayStation 4,Sony,1338,1965,4.743,157.986,15,0.0,1,-0.58639,-0.84298,K15 - The Last of Us Remastered - Pl
+B00EO2ECUY,"Razer Naga Left-Handed - Ergonomic MMO Gaming Mouse with 12 Programmable Thumb Buttons - 8,200 Adjustible DPI",Razer,892,224,3.791,130.72,40,0.0,1,-0.92395,0.31441,K40 - Razer Naga Epic Chroma MMO Gam
+B00NW6T6CC,"Razer Naga Epic Chroma MMO Gaming Mouse - 19 Buttons - 8,200 - Wireless",Razer,1229,368,3.726,177.169,40,0.0,1,-0.95455,-0.19964,K40 - Razer Naga Epic Chroma MMO Gam
+B00BGAA3S2,PlayStation 4 Camera (Old Model),Sony,1109,1178,4.385,129.772,41,0.0,1,0.61416,-0.82018,K41 - PowerA DualShock 4 Charging St
+B00ENFVJJO,PowerA DualShock 4 Charging Station for PlayStation 4,PowerA,1468,1111,4.488,180.167,41,0.0,1,0.83184,-0.48361,K41 - PowerA DualShock 4 Charging St
+B00Z9LUDX4,Ratchet & Clank - PlayStation 4,Sony,600,440,4.71,65.943,15,0.0,1,-0.83103,0.51241,K15 - The Last of Us Remastered - Pl
+B00JUFT1F6,Dragon Age Inquisition - Standard Edition - PlayStation 4,Electronic Arts,541,745,4.266,59.588,11,0.0,1,0.00658,0.96874,K11 - Destiny - Standard Edition - P
+B00KKAQYXM,"HAVIT HV-MS672 3200DPI Wired Mouse, 4 Adjustable DPI Levels, 800/1200/2400/3200DPI, 7 Circular & Breathing LED Light, 6 Buttons (Black)(Updated Version)",Havit,1278,644,3.987,184.481,28,0.0,1,0.5071,0.70366,K28 - HAVIT HV-MS672 3200DPI Wired M
+B000S0C2UI,"Insten Dual Charging Back Stand Docking Station with LED light Indicator Compatible with Sony PlayStation PS3 / PS 3 Slim Controller, Black",INSTEN,651,244,4.051,84.366,42,0.0,1,-0.72731,-0.59131,K42 - PlayStation 3 Dualshock 3 Wire
+B0015AARJI,PlayStation 3 Dualshock 3 Wireless Controller (Black),Sony,709,311,4.355,86.157,42,0.0,1,0.54971,0.81052,K42 - PlayStation 3 Dualshock 3 Wire
+B000B9RI14,Xbox 360 LIVE 1600 Points,Microsoft,1563,94,4.75,190.022,43,0.0,1,0.99771,0.0774,K43 - Xbox 360 LIVE 1600 Points
+B0029LJIFG,Xbox LIVE 12 Month Gold Membership Card,Microsoft,998,184,4.664,122.291,43,0.0,1,-0.22684,0.91475,K43 - Xbox 360 LIVE 1600 Points
+B00VU4J13W,Call of Duty: Black Ops III - Standard Edition - PlayStation 4,Activision,922,1078,3.898,107.779,44,0.0,1,-0.22176,0.97148,K44 - Star Wars: Battlefront - Stand
+B00W8FYFBA,Star Wars: Battlefront - Standard Edition - PlayStation 4,Electronic Arts,1000,4052,2.925,117.962,44,0.0,1,0.9575,-0.04854,K44 - Star Wars: Battlefront - Stand
+B00005Q8M0,Super Smash Bros Melee,Nintendo,584,491,4.656,64.303,45,0.0,1,0.64724,0.71748,K45 - Super Smash Bros Melee
+B000084318,The Legend of Zelda: The Wind Waker,Nintendo,501,1492,4.459,54.28,45,0.0,1,-0.51823,0.88008,K45 - Super Smash Bros Melee
+B00HD4R5YU,Metal Gear Solid V: Ground Zeroes - PlayStation 4 Standard Edition,Konami,521,652,3.881,56.465,11,0.0,1,-0.13339,0.92531,K11 - Destiny - Standard Edition - P
+B005WWZUQ0,Battlefield 3 [Download],Electronic Arts,791,3407,3.167,98.596,46,0.0,1,-0.46205,0.85466,K46 - Battlefield 3 [Download]
+B00BXONG7G,Battlefield 4 [Online Game Code],Electronic Arts,712,1711,3.437,91.053,46,0.0,1,-0.18646,-0.96814,K46 - Battlefield 3 [Download]
+B003O6FV8S,Just Dance 2 - Nintendo Wii,Ubisoft,582,1380,4.567,76.175,14,0.0,2,0.75416,-0.68486,K14 - Just Dance 3 [Nintendo Wii]
+B006ZTHFPS,Mortal Kombat: Komplete Edition - Playstation 3,WB Games,650,298,4.752,72.866,21,0.0,1,-0.32502,0.95039,K21 - Mortal Kombat: Komplete Editio
