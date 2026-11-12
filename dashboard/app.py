@@ -1,17 +1,11 @@
-"""Dashboard Final Project - Big Data Analytics Ulasan Amazon Video Games.
-
-    streamlit run app.py
-
-Data: folder data/ (hasil 05_export_dashboard.ipynb). File yang belum ada di data/ diganti
-otomatis oleh data_demo/ (FIKTIF, ada banner peringatan). Tab 1 memakai cube_main (ada produk),
-Tab 2 memakai cube_text (tanpa produk, ada kelompok panjang ulasan).
-"""
+import copy
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import plotly.io as pio
 import streamlit as st
 
 import cube_utils as cu
@@ -19,11 +13,80 @@ import cube_utils as cu
 ROOT = Path(__file__).parent
 DATA, DEMO = ROOT / "data", ROOT / "data_demo"
 RATING_COLORS = {"1": "#d73027", "2": "#fc8d59", "3": "#fee08b", "4": "#a6d96a", "5": "#1a9850"}
-SCEN_COLORS = {"A": "#d62728", "B": "#1f77b4"}
+SCEN_COLORS = {"A": "#232F3E", "B": "#FF9900"}
 # Konstanta dari 03_helpfulness.ipynb (cell 28): baseline "skor = panjang teks" pada data test.
 BASELINE_TEXT_LEN_PRAUC = 0.490
 
-st.set_page_config(page_title="Analisis Ulasan Amazon Video Games", layout="wide")
+st.set_page_config(page_title="Analisis Ulasan Amazon Video Games", page_icon="🛒", layout="wide")
+
+# ------------------------------------------------------------------ tema oranye Amazon
+ORANGE, NAVY = "#FF9900", "#232F3E"
+COLORWAY = ["#FF9900", "#232F3E", "#146EB4", "#C45500", "#FEBD69", "#5B6B7F", "#E47911", "#0F8B8D"]
+ORANGE_SEQ = ["#FFE0B2", "#FFCC80", "#FFB74D", "#FF9900", "#C45500", "#5C2A00"]
+
+_tpl = copy.deepcopy(pio.templates["plotly_white"])
+_tpl.layout.update(
+    colorway=COLORWAY,
+    font=dict(family="Inter, 'Segoe UI', system-ui, sans-serif", size=14, color="#232F3E"),
+    paper_bgcolor="#FFFFFF", plot_bgcolor="#FFFFFF",
+    colorscale=dict(sequential=[[i / (len(ORANGE_SEQ) - 1), c] for i, c in enumerate(ORANGE_SEQ)]),
+    legend=dict(bgcolor="rgba(0,0,0,0)"),
+    hoverlabel=dict(bgcolor="#FFFFFF", font_size=13, bordercolor=ORANGE),
+)
+for _ax in (_tpl.layout.xaxis, _tpl.layout.yaxis):
+    _ax.update(showgrid=True, gridcolor="#E5D2B5", gridwidth=1, showline=True, linecolor="#7B8794",
+               zerolinecolor="#C9A56B", ticks="outside", tickcolor="#7B8794")
+pio.templates["amazon"] = _tpl
+pio.templates.default = "amazon"
+
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+html, body, [class*="css"], .stApp { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+.stApp { background: linear-gradient(180deg, #FFEFD6 0%, #FFDDAA 100%); }
+.block-container { max-width: 1280px; padding-top: 2rem; padding-bottom: 4rem; }
+
+/* judul */
+.hero { background: linear-gradient(135deg, #131A22 0%, #232F3E 55%, #37475A 100%);
+        border-bottom: 5px solid #FF9900;
+        border-radius: 18px; padding: 28px 32px; margin-bottom: 1.2rem;
+        box-shadow: 0 10px 30px rgba(19, 26, 34, .35); }
+.hero .t { color: #fff; font-size: 2rem; font-weight: 800; line-height: 1.25; margin: 0 0 .4rem 0; }
+.hero .s { color: #FFE2B8; font-size: .95rem; margin: 0; }
+h2 { color: #232F3E !important; font-weight: 700 !important; margin-top: 1.6rem !important;
+     padding-bottom: .35rem; border-bottom: 2px solid #F0B866; }
+h3 { color: #B45309 !important; font-weight: 600 !important; }
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] * {
+    color: #232F3E !important; opacity: 1 !important; font-size: .95rem; line-height: 1.5; }
+hr { border-color: #F0B866 !important; }
+
+/* tab */
+[data-baseweb="tab-list"] { gap: 6px; border-bottom: 1px solid #F0B866; }
+button[data-baseweb="tab"] { padding: 10px 18px; border-radius: 10px 10px 0 0; font-weight: 600; color: #5F6B7A; }
+button[data-baseweb="tab"][aria-selected="true"] { color: #B45309; background: #FFFFFF; }
+[data-baseweb="tab-highlight"] { background-color: #FF9900 !important; height: 3px; }
+
+/* kartu KPI */
+[data-testid="stMetric"] { background: #fff; border: 1px solid #F0C27B; border-left: 6px solid #FF9900;
+                           border-radius: 14px; padding: 12px 14px; box-shadow: 0 4px 14px rgba(180,83,9,.20); }
+[data-testid="stMetricLabel"], [data-testid="stMetricLabel"] * { white-space: normal !important; color: #37475A !important; opacity: 1 !important; font-weight: 500; }
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] > div {
+    color: #C45500; font-weight: 700; font-size: clamp(1.25rem, 1.7vw, 1.6rem) !important;
+    overflow: visible !important; text-overflow: clip !important; white-space: normal !important;
+    line-height: 1.2; }
+
+/* grafik sebagai kartu putih */
+[data-testid="stPlotlyChart"] { background: #fff; border: 1px solid #F0C27B; border-radius: 14px;
+                                padding: 8px; box-shadow: 0 4px 14px rgba(180,83,9,.16); }
+[data-testid="stAlert"] { border-radius: 12px; }
+[data-testid="stExpander"] { background: #fff; border: 1px solid #F0C27B; border-radius: 12px; }
+
+/* filter */
+span[data-baseweb="tag"] { background-color: #FF9900 !important; color: #131A22 !important; }
+[data-testid="stSlider"] [role="slider"] { background-color: #FF9900 !important; }
+[data-testid="stSliderThumbValue"] { color: #B45309 !important; font-weight: 600; }
+</style>
+""", unsafe_allow_html=True)
 
 DEMO_USED: list[str] = []
 
@@ -61,10 +124,11 @@ def cube_file(name):
 
 
 def plot(fig, **kw):
+    fig.update_layout(paper_bgcolor="#FFFFFF", plot_bgcolor="#FFFFFF")
     try:
-        st.plotly_chart(fig, use_container_width=True, **kw)
+        st.plotly_chart(fig, use_container_width=True, theme=None, **kw)
     except TypeError:                       # versi Streamlit baru yang menghapus use_container_width
-        st.plotly_chart(fig, width="stretch", **kw)
+        st.plotly_chart(fig, width="stretch", theme=None, **kw)
 
 
 def show_table(df, **kw):
@@ -97,9 +161,11 @@ g_nodes = table_file("graph_nodes.csv")
 g_edges = table_file("graph_edges.csv")
 g_comm = table_file("graph_communities.csv")
 
-st.title("Analisis Ulasan Produk Amazon: Kategori Video Games")
-st.caption("Dashboard Final Project Big Data Analytics. Sumber: Amazon Review Data 2018 (Ni et al., 2019), "
-           "diolah dengan HDFS dan Apache Spark. Semua angka dihitung dari seluruh Clean Layer.")
+st.markdown(
+    '<div class="hero"><p class="t">Analisis Ulasan Produk Amazon: Kategori Video Games</p>'
+    '<p class="s">Dashboard Final Project Big Data Analytics. Sumber: Amazon Review Data 2018 (Ni et al., 2019), '
+    'diolah dengan HDFS dan Apache Spark. Semua angka dihitung dari seluruh Clean Layer.</p></div>',
+    unsafe_allow_html=True)
 
 if DEMO_USED:
     st.warning("MODE DEMO: file berikut memakai data acak (fiktif) dan tidak boleh dikutip di laporan: "
@@ -185,7 +251,7 @@ with tab1:
                 st.subheader("Verified vs unverified")
                 v = cu.by_verified(d)
                 plot(px.pie(v, names="status", values="n", color="status", hole=0.4,
-                            color_discrete_map={"Verified": "#4575b4", "Unverified": "#999999"}))
+                            color_discrete_map={"Verified": "#FF9900", "Unverified": "#8A97A6"}))
                 st.caption("Rata-rata rating: " + ", ".join(
                     f"{row.status} {row.avg_rating:.2f}" for row in v.itertuples()))
 
@@ -271,10 +337,13 @@ with tab2:
     if review_len is not None and text_pattern is not None:
         a, b = st.columns(2)
         with a:
-            dl = review_len[review_len["metrik"] != "Maksimum"]
-            plot(px.bar(dl, x="metrik", y="panjang_teks", text="panjang_teks",
-                        labels={"metrik": "", "panjang_teks": "Panjang (karakter)"}))
-            st.caption("Rata-rata jauh di atas median: sebagian besar ulasan singkat, sedikit yang sangat panjang.")
+            dl = review_len[~review_len["metrik"].astype(str).isin(["Maksimum", "100"])].copy()
+            dl["metrik"] = dl["metrik"].astype(str)
+
+            fig = px.bar(dl, x="metrik", y="panjang_teks", text="panjang_teks",
+                        labels={"metrik": "Statistik", "panjang_teks": "Panjang (karakter)"})
+            fig.update_xaxes(type="category")   
+            plot(fig)
         with b:
             plot(px.bar(text_pattern.sort_values("persen"), x="persen", y="pola", orientation="h",
                         labels={"persen": "% ulasan", "pola": ""}))
@@ -367,7 +436,7 @@ with tab3:
         if not row.empty:
             row = row.iloc[0]
             z = np.array([[row.TN, row.FP], [row.FN, row.TP]])
-            fig = px.imshow(z, text_auto=True, color_continuous_scale="Blues", aspect="auto",
+            fig = px.imshow(z, text_auto=True, color_continuous_scale=ORANGE_SEQ, aspect="auto",
                             x=["Prediksi: tidak helpful", "Prediksi: helpful"],
                             y=["Aktual: tidak helpful", "Aktual: helpful"])
             fig.update_layout(coloraxis_showscale=False)
@@ -406,7 +475,7 @@ with tab3:
                            f"otomatis dari data validasi (F1 tertinggi).")
             plot(fig)
             cmx = np.array([[mt["TN"], mt["FP"]], [mt["FN"], mt["TP"]]])
-            figc = px.imshow(cmx, text_auto=True, color_continuous_scale="Blues", aspect="auto",
+            figc = px.imshow(cmx, text_auto=True, color_continuous_scale=ORANGE_SEQ, aspect="auto",
                              x=["Prediksi: tidak helpful", "Prediksi: helpful"],
                              y=["Aktual: tidak helpful", "Aktual: helpful"])
             figc.update_layout(coloraxis_showscale=False, height=320)
@@ -458,6 +527,7 @@ with tab4:
                              hover_name="title", log_x=True, color_continuous_scale="RdYlGn", range_color=[1, 5],
                              hover_data={"brand": True, "votes": True, "pagerank": ":.1f"},
                              labels={"n_reviewers": "Jumlah reviewer (log)", "mean_rating": "Rata-rata rating"})
+            fig.update_traces(marker=dict(sizemin=6, opacity=0.85, line=dict(width=0.8, color="#232F3E")))
             fig.add_hline(y=3, line_dash="dot")
             plot(fig)
 
@@ -489,9 +559,10 @@ with tab4:
             st.info("Tidak ada reviewer untuk filter ini.")
         else:
             fig = px.scatter(rv, x="n_products", y="mean_rating", color="votes", size="pagerank", hover_name="reviewer",
-                             log_x=True, color_continuous_scale="Viridis",
+                             log_x=True, color_continuous_scale=ORANGE_SEQ,
                              labels={"n_products": "Produk yang diulas (log)", "mean_rating": "Rata-rata rating",
                                      "votes": "Total vote"})
+            fig.update_traces(marker=dict(sizemin=6, opacity=0.85, line=dict(width=0.8, color="#232F3E")))
             plot(fig)
             an = rv[(rv["mean_rating"] >= 4.9) & (rv["n_products"] >= flag_p)].sort_values("n_products", ascending=False)
             if len(an):
@@ -515,10 +586,10 @@ with tab4:
         nd = g_nodes[g_nodes["community_label"].isin(sel_c)] if sel_c else g_nodes
         xs, ys, n_e = cu.network_lines(nd, g_edges, min_j)
         label_set = set(g_nodes.nlargest(n_lab, "pagerank")["asin"]) if n_lab else set()
-        palette = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
+        palette = COLORWAY + px.colors.qualitative.Dark24
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=xs, y=ys, mode="lines", hoverinfo="skip", showlegend=False,
-                                 line=dict(width=0.6, color="rgba(130,130,130,0.35)")))
+                                 line=dict(width=0.8, color="rgba(35,47,62,0.35)")))
         pmax = max(float(g_nodes["pagerank"].max()), 1e-9)
         for i, (lab, g) in enumerate(nd.groupby("community_label")):
             hover = [f"{t}<br>{b}<br>rating {r:.2f} | {int(n)} reviewer" for t, b, r, n in
@@ -528,7 +599,7 @@ with tab4:
                 text=[t[:24] if a in label_set else "" for t, a in zip(g["title"], g["asin"])],
                 textposition="top center", textfont=dict(size=9), hovertext=hover, hoverinfo="text",
                 marker=dict(size=7 + 28 * np.sqrt(g["pagerank"] / pmax), color=palette[i % len(palette)],
-                            line=dict(width=0.5, color="white"))))
+                            opacity=0.9, line=dict(width=0.8, color="#232F3E"))))
         fig.update_xaxes(visible=False)
         fig.update_yaxes(visible=False)
         fig.update_layout(height=720, legend=dict(font=dict(size=9)), margin=dict(l=0, r=0, t=10, b=0))
